@@ -1,15 +1,3 @@
-# DAY58 GHOST TYPING2
-# 音をつけた。ghostのスピードアップ。ダブルのときはポイント加算。
-# 昨日はtrusumemorygameとsubmarineをgithubに上げるのをやった。trush・・・の方は修正が必要だった 
-
-# テルミンアゲイン
-# 音ゲーの指5本バージョンとか、違う曲とか。
-
-# 雪合戦。敵がいるやつ
-
-# 敵も動くようなゲームを。
-# 敵はサメ？ある程度近づくと、スピードアップして寄ってくるとか。
-
 import pyxel
 from enum import Enum
 import random
@@ -63,7 +51,7 @@ class Ghost():
 class App():
     def __init__(self):
         pyxel.init(SCREEN_WIDTH,SCREEN_HEIGHT, fps = FPS)
-        pyxel.load("./img/ghost_typing.pyxres")
+        pyxel.load("ghost_typing.pyxres")
         
         self.player_x = PLAYER_XCENTER - 8
         self.player_y = PLAYER_YCENTER - 8
